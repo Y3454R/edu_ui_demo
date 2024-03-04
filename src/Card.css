@@ -1,0 +1,43 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center; /* Add this line to center the content horizontally */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Add this line to align the labels to the left */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Add this line to include padding in the width */
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff7f00;
+}
+
+label {
+  color: #333;
+  display: block; /* Add this line to display labels as block elements */
+  text-align: left; /* Add this line to align labels to the left */
+}
